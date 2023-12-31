@@ -1,0 +1,147 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'android';
+    src: url("fontes/idroid.otf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+body {
+    background-color: #e8f9b3;
+    font-family:  Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+
+header {
+    background-color: green;
+    background-image: linear-gradient(to bottom, #3CDB84,#31AF69, #25824E, #1E693F, #195835 );
+    color: white;
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: -25px -25px 0px -25px;
+    font-weight: bold;
+}
+
+header > h1 {
+    padding: 35px;
+}
+
+header > p {
+    text-align: center;
+}
+
+nav {
+    margin-left: 15px;
+    text-align: left;
+    padding: 10px;
+}
+
+nav > a {
+    color: #c3f8da;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 10px;
+
+}
+
+nav > a:hover {
+    background-color: #76f0ad;
+    transition-delay: 3ms;
+    color: #195835;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    width: 900px;
+    padding: 5px;
+    box-shadow: 2px 2px 9px 2px rgba(0, 0, 0, 0.459);
+}
+
+img {
+    text-align: center;
+    margin: auto;
+}
+
+section.principal {
+
+    margin: -22px 10px 10px 10px;
+    
+}
+
+h1.fontes {
+    font-family: 'android', Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: #387152;
+    padding-left: 8px;
+}
+
+h2.fontes {
+    font-family: 'android', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #387152;
+    background-color: #DFF4E9;
+    background-image: linear-gradient(to right, #97eabb, #adeec9  , #DFF4E9, white );
+    padding-left: 8px;
+    
+}
+
+span {
+    color: #195835;
+    font-size: 18px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+a.externos {
+    text-decoration: none;
+    color: #195835;
+    background-color: #76f0ad;
+    font-weight: bold;
+}
+
+div#video {
+    text-align: center;
+    background-color: #195835;
+    padding: 20px;
+}
+
+article#extra {
+    background-color: #76f0ad;
+    border-radius: 0px 0px 6px 6px;
+    padding: 2px;
+    margin: -1px 25px 0px 25px;
+}
+
+h3 {
+    background-color: #195835;
+    border-radius: 6px 6px 0px 0px;
+    color: white;
+    padding: 6px;
+    margin: 50px 25px 1px 25px;
+}
+
+ul {
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+
+footer {
+    text-align: center;
+    background-color: #195835;
+    color: white;
+    margin: -10px -10px;
+    font-size: 12px;
+
+}
+
+footer > span.rodape {
+    color: white;
+    font-size: 12px;
+}
